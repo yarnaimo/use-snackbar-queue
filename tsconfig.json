@@ -15,5 +15,5 @@
     "types": ["@types/node", "@types/jest"]
   },
   "include": ["**/*.ts", "**/*.tsx"],
-  "exclude": ["dist", "node_modules"]
+  "exclude": ["dist", "esm", "node_modules"]
 }
