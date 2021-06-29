@@ -7,9 +7,9 @@ import {
 } from 'notistack'
 import { useCallback, useMemo } from 'react'
 
-export const VariantSnackbarProvider = SnackbarProvider
+export const SnackbarQueueProvider = SnackbarProvider
 
-export const useVariantSnackbar = () => {
+export const useSnackbarQueue = () => {
   const { enqueueSnackbar, closeSnackbar } = useSnackbar()
 
   const bindVariant = useCallback(
